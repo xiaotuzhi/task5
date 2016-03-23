@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:"Microsoft YaHei",微软雅黑;
+	padding-top:50px;
+	background-color:#eee;
+	line-height:2;
+}
+header{
+	background-color:#333333;
+	width:100%;
+	height:50px;
+	top:0;
+	position:fixed;
+	padding-left:20px;
+	margin:auto;
+}
+header img{
+	padding-left:20px;
+	float:left;
+	width:120px;
+	height:30px;
+	padding-top:10px;
+}
+header ul{
+	float:right;
+	line-height:25px;
+	padding-right:50px;
+}
+header li{
+	font-size:10px;
+	float:left;
+	margin:14px;
+}
+header a{
+	color:white;
+	text-decoration:none;
+}
+[checked=checked],h4,span{
+	color:gray;
+}
+.main,.atlas{
+	margin:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:20px;
+	padding-right:20px;
+	width:auto;
+	height:auto;
+	background-color:white;
+	border:1px solid #999;
+}
+.atlas img{
+	width:90px;
+	height:90px;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+figure{
+	width:150px;
+	height:150px;
+	border-style:solid;
+	border-color:#999;
+	border-width:1px;
+	margin:15px;
+}
+figcaption{
+	padding-left:35px;
+	padding-bottom:8px;
+	padding-top:10px;
+	padding-right:35px;
+}
+.main li{
+	margin-left:4em;
+}
+.main table{
+	width:100%;
+	text-align:left;
+	border-collapse:collapse;
+}
+.main th{
+	background-color:black;
+	color:white;
+}
+.main td{
+	border:1px solid #eee;
+}
+[title=tfoot]{
+	background-color:gray;
+}
+aside{
+	margin:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:20px;
+	padding-right:20px;
+	width:92%;
+	height:auto;
+	background-color:white;
+	border:1px solid #999;
+}
+aside form{
+	padding-left:350px;
+}
+aside p{
+	color:gray;
+}
+textarea{
+	vertical-align: text-top;
+	font-size:1.5em;
+}
+[type=button]{
+	width:100%;
+	height:40px;
+	text-align:center;
+	background:#7FFFD4;
+	border-radius:10px;
+	border-style:none;
+}
+footer{
+	background-color:#333333;
+	margin:auto;
+	width:100%;
+	height:50px;
+	text-align:center;
+	color:white;
+	font-size:0.5em;
+	padding-top:10px;
+}
