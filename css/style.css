@@ -39,9 +39,9 @@ a:hover,h4,span{color:gray;}
 	background-color:white;
 	border:1px solid #999;
 }
-atlas img{
-	width:20px;
-	height:20px;
+.atlas img{
+	width:100px;
+	height:100px;
 	padding:20px;
 }
 figure{
